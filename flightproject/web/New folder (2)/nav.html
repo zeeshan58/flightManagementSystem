@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Admin</title>
+
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/css/main1.css" rel="stylesheet">
+
+</head>
+<body background="back10.jpg">
+
+  <!-- navbar -->
+  <nav class="mynavbar navbar mynavbar navbar-inverse" >
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="home.jsp">AirGreen</a>
+      </div>
+      <ul class="nav navbar-nav navtext">
+        <li class="active"><a href="home.jsp">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right navtext">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+
+      </div>
+      <div class="col-md-6">
+        <div class="panel with-nav-tabs panel-default">
+          <div class="panel-heading" style="background-color:#665851">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab1info" data-toggle="tab">Business Class</a></li>
+              <li><a href="#tab2info" data-toggle="tab">First Class</a></li>
+              <li><a href="#tab3info" data-toggle="tab">Economy Class</a></li>
+            </ul>
+          </div>
+          <div class="panel-body">
+            <div class="tab-content">
+              <div class="tab-pane fade in active" id="tab1info">Info 1</div>
+              <div class="tab-pane fade" id="tab2info">Info 2</div>
+              <div class="tab-pane fade" id="tab3info">Info 3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- <script src="bootstrap/js/jquery.min.js"></script> -->
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

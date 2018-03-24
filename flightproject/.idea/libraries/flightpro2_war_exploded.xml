@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="flightpro2_war_exploded">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/flightpro2_war_exploded/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/flightpro2_war_exploded/activation-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/flightpro2_war_exploded/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/flightpro2_war_exploded/mail-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
